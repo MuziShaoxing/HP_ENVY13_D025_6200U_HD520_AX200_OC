@@ -980,44 +980,7 @@
                 <integer>3</integer>
             </dict>
             <key>Entries</key>
-            <array>
-                <dict>
-                    <key>Arguments</key>
-                    <string>UOS</string>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string>Not signed for security reasons</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Other</string>
-                    <key>Name</key>
-                    <string>UOS</string>
-                    <key>Path</key>
-                    <string>PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x0,0x0,0x0)/HD(1,GPT,A5D26657-8212-4C11-ADFA-F85480789A1F,0x28,0x64000)/\Windows\UOS\grubx64.efi</string>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string>Windows</string>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string>Windows</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Windows</string>
-                    <key>Name</key>
-                    <string>Windows</string>
-                    <key>Path</key>
-                    <string>PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x0,0x0,0x0)/HD(1,GPT,A5D26657-8212-4C11-ADFA-F85480789A1F,0x28,0x64000)/\Windows\Microsoft\BOOT\bootmgfw.efi</string>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-            </array>
+            <array/>
             <key>Security</key>
             <dict>
                 <key>AllowNvramReset</key>
@@ -1330,7 +1293,7 @@
                     <key>Arguments</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Path</key>
                     <string>btrfs_x64.efi</string>
                 </dict>
@@ -1381,14 +1344,6 @@
                     <true/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>XhciDxe.efi</string>
                 </dict>
             </array>
             <key>Input</key>
